@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Nunito:wght@400;600;700&display=swap");
+
 /* global rules */
 *,
 *::after,
@@ -5,13 +7,73 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   font-size: 62.5%;
   padding: 0;
   margin: 0;
+  font-family: "Nunito", sans-serif;
+  background-color: #f0ecd6;
+}
+
+/* navigation bar  */
+#nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background-color: #1c2020;
+  box-shadow: 0 0 3px #000;
+  padding: 0 4rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+/* navigation movie title */
+#title {
+  font-size: 3rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  font-family: "Belanosima", sans-serif;
+}
+
+/* navigation movie title sub-part */
+#title-subpart {
+  color: #008080;
+}
+
+/* search block */
+#search-block {
+  border-radius:30px;
+  display: flex;
+  border: 1px solid #fff;
+  background-color: #fff;
+  box-shadow: 0 0 3px #fff;
 }
 
 
-h1 {
-  color: red;
+#search-bar, #search-btn{
+  border: 0;
+  padding: 5px 10px;
+  border-radius: 30px;
+  outline: 0;
 }
+
+/* search input element */
+#search-bar {
+  width: 250px;
+  font-size: 1.5rem;
+}
+
+/* search button */
+#search-btn {
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+  background-color: teal;
+}
+
+
+
