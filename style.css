@@ -109,8 +109,9 @@ body {
   bottom: 50%;
   border-radius: 0;
   transform: translate(-50%, 50%);
-  background: none;
+  background: #000;
   color: #f8f8f8;
+  opacity: 0.9;
 }
 
 .movie-card > img {
