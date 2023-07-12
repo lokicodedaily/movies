@@ -84,7 +84,8 @@ body {
 /* movie section */
 #movies-section {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
+  row-gap: 3rem;
   flex-wrap: wrap;
   justify-content: center;
   cursor: pointer;
@@ -94,10 +95,23 @@ body {
   position: relative;
   border: 2px solid rgb(22, 22, 22);
   border-radius: 15px;
-  width: 300px;
-  height: 350px;
+  width: 220px;
+  height: 300px;
+  transition: all .3s;
+  filter: brightness(100%);
 }
 
+.movie-card:hover{
+  filter: brightness(70%);
+}
+
+.movie-card:hover span{
+  bottom: 50%;
+  border-radius: 0;
+  transform: translate(-50%, 50%);
+  background: none;
+  color: #f8f8f8;
+}
 
 .movie-card > img {
   width: 100%;
@@ -121,4 +135,22 @@ body {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   text-transform: capitalize;
+  transition: all .3s;
+  filter: brightness(100%);
+}
+
+
+@media (max-width: 950px) {
+  .movie-card{
+    width: 250px;
+    height: 300px
+  }
+}
+
+@media (max-width: 530px){
+  .movie-card {
+    width: 290px;
+    height: 330px;
+    transition: width .2s, height 0.2s;
+  }
 }
