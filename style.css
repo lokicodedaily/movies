@@ -87,11 +87,12 @@ body {
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
+  cursor: pointer;
 }
 
 .movie-card {
   position: relative;
-  border: 2px solid teal;
+  border: 2px solid rgb(22, 22, 22);
   border-radius: 15px;
   width: 300px;
   height: 350px;
