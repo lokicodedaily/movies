@@ -107,7 +107,7 @@ body {
 #movie-title {
   font-weight: 800;
   font-size: 4rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 #movie-directors, #movie-writers, #movie-stars, #movie-rating, #movie-released-year {
