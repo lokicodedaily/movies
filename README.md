@@ -1,2 +1,2 @@
 # Movies Searching Website
-> To preview click on [**here**](lokicodedaily.github.io/movie)
+> To preview click on [**here**](https://lokicodedaily.github.io/movies/)
